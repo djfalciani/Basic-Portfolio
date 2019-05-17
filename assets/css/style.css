@@ -1,0 +1,16 @@
+body{
+    width: 960px;
+}
+
+h1{
+    color: #4aaaa5;
+}
+
+p {
+    color: firebrick;
+}
+
+
+footer {
+    background-color: #666666;
+}

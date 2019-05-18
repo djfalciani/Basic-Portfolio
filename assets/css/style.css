@@ -15,6 +15,9 @@ h1{
     width: 25%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
+    margin-left: 15%;
+    position: relative;
+    bottom: 0;
 }
 
 h2 {
@@ -49,6 +52,11 @@ footer {
     float: left;
 }
 
+.right {
+    float: right;
+    margin-right: 15%;
+}
+
 .headersection {
     /* margin: 10px; */
     /* padding-bottom: 20px; */
@@ -59,6 +67,7 @@ footer {
     /* clear: both; */
     border-bottom: 1px solid;
     clear: none;
+    overflow: auto;
     /* position: relative; */
 }
 
@@ -69,7 +78,8 @@ footer {
 .maincontentsection {
     /* margin: 20px; */
     /* margin-top: 40px; */
-    margin:  35px 0px 35px 0px;
+    /* margin:  35px 0px 35px 100px; */
+    margin-left: 15%;
     padding: 20px;
     background: #ffffff;
     border-color: #dddddd;
@@ -93,6 +103,9 @@ li a:hover {
     overflow: auto;
     background-color: white;
     font-weight: bold;
+}
+ul {
+    width: 200px;
 }
 
 .menuitem {

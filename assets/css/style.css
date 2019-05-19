@@ -14,9 +14,6 @@ h1{
     font-weight: bold;
     /* bottom: -27px; */
     /* position: relative; */
-    margin-left: 15%;
-    position: relative;
-    bottom: 0;
 }
 
 h2 {
@@ -88,17 +85,11 @@ input[type=text] {
     margin: 0 auto;
   }
 
-    margin-right: 15%;
-}
-
 .headersection {
     background: #ffffff;
     border-color: #cccccc;
     border-bottom: 1px solid;
     clear: both;
-    clear: none;
-    overflow: auto;
-    /* position: relative; */
 }
 
 .entirecontentsection {
@@ -109,10 +100,6 @@ input[type=text] {
 
 .maincontentsection {
     margin: 20px 15%;
-    /* margin: 20px; */
-    /* margin-top: 40px; */
-    /* margin:  35px 0px 35px 100px; */
-    margin-left: 15%;
     padding: 20px;
     background: #ffffff;
     border-color: #dddddd;
@@ -138,9 +125,6 @@ li a:hover {
     background-color: white;
     font-weight: bold;
     position: relative;
-}
-ul {
-    width: 200px;
 }
 
 .menuitem {

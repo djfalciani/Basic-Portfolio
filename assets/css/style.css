@@ -28,6 +28,15 @@ img {
     float: left;
 }
 
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 1.8;
+  }
+
 footer {
     padding: 20px;
     font-size: large;
@@ -95,7 +104,7 @@ input[type=text] {
 .entirecontentsection {
     background-image: url(../images/circuit.png);
     position: relative;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .maincontentsection {
@@ -138,15 +147,6 @@ li a:hover {
     text-decoration: none;
 }
 
-.navcontainer {
-    float: right;
-    width: 40%;
-    margin: 0 auto;
-    font-size: 20px;
-    clear: both;
-    display: inline;
-}
-
 .portfolio-container {
     width: 960px;
     overflow: auto;
@@ -178,6 +178,8 @@ li a:hover {
 .portfolio-label {
     /* position: relative;  */
     /* bottom: 50px;  */
+    font-size: large;
+    text-align: center;
     width: auto;
     color:  white;
     background: #4aaaa5;
